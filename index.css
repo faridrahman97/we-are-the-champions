@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1B1924;
+    color: #FFFFFF;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+#main-logo {
+    width: 90px;
+}
+
+input {
+    border: none;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: #444059;
+    color: #FFFFFF;
+}
+
+#endorsement-input {
+    width: 400px;
+    padding: 15px 50px 100px 15px;
+}
+
+.signed-input {
+    width: 200px;
+    margin-top: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+#publish-btn {
+    font-size: 22px;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #04131C;
+    background-color: #28A9F1;
+    border: none;
+    padding: 15px;
+    margin-top: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+#post-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#endorsement-paragraph {
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.post {
+    color: black;
+    width: 400px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.from-to-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.bold {
+    font-weight: 700;
+}
